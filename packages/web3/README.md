@@ -13,6 +13,21 @@ This is the main package of [web3.js](repo).
 
 `web3` contains the ideal setup for a Web3.js package.
 
+## General Features
+- **[Web3.js Plugins](https://docs.web3js.org/guides/web3_plugin_guide/):** Enhance or add any functionality by creating scalable web3 plugins for any project.
+- **Abstractions over the [JSON-RPC API](https://ethereum.org/en/developers/docs/apis/json-rpc):** Simplifying interaction for your Developer Experience.
+- **Language aligned to the official [Ethereum terminology](https://ethereum.org/en/glossary):** Improved clarity and consistency, reduced learning curve.
+- **Tree-shaking focus:** Include only what you need during bundling for optimized performance.
+- **Dynamic contract types and full API in TypeScript:** Enforced with strict types for enhanced security and safety.
+- **More efficient ABI Encoder & Decoder:** Contributes to faster execution and better overall performance of the library.
+- **First-class APIs for interacting with [Smart Contracts](https://ethereum.org/en/glossary#smart-contract):** [Contracts dynamic types](https://docs.web3js.org/guides/smart_contracts/infer_contract_types/) & full API in TypeScript to support clarity.
+- **ESM and CJS module builds:** Support for both ECMAScript module and CommonJS module builds for flexible integration with various project setups.
+- **Native BigInt:** Using native BigInt for improved efficiency compared to large external BigNumber libraries.
+- **Custom Output formatters:** Format any returned value to be a string, number, BigInt, etc., providing flexibility in handling output data.
+- **Complete utilities and functionalities for all your Ethereum needs:**
+- **Extensive [documentation](https://docs.web3js.org/) with guides and APIs**
+- **Large collection of test cases.**
+
 ## Installation
 
 You can install the package either using [NPM](https://www.npmjs.com/package/web3) or using [Yarn](https://yarnpkg.com/package/web3)
